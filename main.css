@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding-left: 20px;
+}
+
+li a{
+    font-size: 20px;
+}
+
+ul{
+    text-transform: capitalize;
+}
+
+/* .dropdown:hover .menu1{
+    display: block;
+    float: left;
+} */
+
+.marquee{
+    border: 2px solid aqua;
+    /* text-align: center; */
+    background-color: aqua;
+}
+
+span{
+    position: static;
+}
+
+
+
+.navmar{
+    float: right;
+}
+
+.logo{
+    width: 150px;
+    height: 78px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.nav1{
+    background-color: rgb(194, 194, 251);
+    justify-content: space-between;
+}
+
+/* .menu{
+    width: 150px;
+} */
+
+.menu{
+    width: 350px;
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+
+.testimonial-img{
+    width: 100%;
+    /* margin: 10px; */
+    /* border-radius: 50%; */
+}
+
+/* .carousel-item{
+    padding: 7% 15%;
+}  */
+
+.service-img{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%;*/
+}
+
+#news{
+    text-align: center;
+    font-family: 'Montserrat-Black';
+    padding: 100px 50px;
+}
+
+.card{
+    height: 400px;
+}
+
+.case1, .case2, .case3, .case4{
+    /* display: inline-block;    */
+    justify-content: space-between;
+
+}
+
+.case1, .case2, .case3, .case4, ul li a{
+    text-align: left;
+}
+
+.cases{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+#footer{
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+.socialmedia{
+    text-align: center;
+    display: felx;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 450px){
+    .cases{
+        display: block;
+        text-align: center;
+    }
+
+    .nav-item{
+        display: block;
+    }
+}
